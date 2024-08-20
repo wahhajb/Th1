@@ -8,7 +8,6 @@ import fs from 'fs';
 import chalk from 'chalk';
 import mddd5 from 'md5';
 import ws from 'ws';
-let mconn;
 
 /**
  * @type {import('@whiskeysockets/baileys')}
@@ -47,7 +46,6 @@ export async function handler(chatUpdate) {
       return;
     }
     global.mconn = m
-    mconn = m
     m.exp = 0;
     m.money = false;
     m.limit = false;
@@ -73,7 +71,6 @@ export async function handler(chatUpdate) {
         if (!isNumber(user.money)) user.money = 15;
         if (!('language' in user)) user.language = 'es';
         if (!('registered' in user)) user.registered = false;
-        if (!('mute' in user)) user.mute = false
         if (!user.registered) {
           if (!('name' in user)) user.name = m.name;
           if (!isNumber(user.age)) user.age = -1;
@@ -611,7 +608,6 @@ export async function handler(chatUpdate) {
           gadodado: 0,
           gajah: 0,
           gamemines: false,
-          mute: false,
           ganja: 0,
           gardenboxs: 0,
           gems: 0,
@@ -1250,7 +1246,7 @@ export async function handler(chatUpdate) {
       }, time);
     }
 
-    if (m.isBaileys || isBaileysFail && m?.sender === mconn?.conn?.user?.jid) {
+    if (m.isBaileys) {
       return;
     }
     m.exp += Math.ceil(Math.random() * 10);
@@ -1402,7 +1398,7 @@ ${tradutor.texto1[1]} ${messageNumber}/3
             if (user.commandCount === 2) {
               const remainingTime = Math.ceil((user.lastCommandTime + 5000 - Date.now()) / 1000);
               if (remainingTime > 0) {
-                const messageText = `*[ ℹ️ ] Espera* _${remainingTime} segundos_ *antes de utilizar otro comando.*`;
+                const messageText = `*[ 🦈 ] انتظر* _${remainingTime} ثواني_ *قبل استخدام أمر آخر.*`;
                 m.reply(messageText);
                 return;
               } else {
@@ -1626,38 +1622,90 @@ export async function participantsUpdate({ id, participants, action }) {
   //if (m.conn.isInit) return;
   if (global.db.data == null) await loadDatabase();
   const chat = global.db.data.chats[id] || {};
-  const botTt = global.db.data.settings[mconn?.conn?.user?.jid] || {};
+  const botTt = global.db.data.settings[m.conn.user.jid] || {};
   let text = '';
   switch (action) {
     case 'add':
-    case 'remove':
-      if (chat.welcome && !chat?.isBanned) {
-        const groupMetadata = await m?.conn?.groupMetadata(id) || (conn?.chats[id] || {}).metadata;
-        for (const user of participants) {
-          let pp = 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/avatar_contact.png';
-          try {
-            pp = await m.conn.profilePictureUrl(user, 'image');
-          } catch (e) {
-          } finally {
-            const apii = await m.conn.getFile(pp);
-            const antiArab = JSON.parse(fs.readFileSync('./src/antiArab.json'));
-            const userPrefix = antiArab.some((prefix) => user.startsWith(prefix));
-            const botTt2 = groupMetadata.participants.find((u) => m.conn.decodeJid(u.id) == m.conn.user.jid) || {};
-            const isBotAdminNn = botTt2?.admin === 'admin' || false;
-            text = (action === 'add' ? (chat.sWelcome || tradutor.texto1 || conn.welcome || 'Welcome, @user!').replace('@subject', await m.conn.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
-              (chat.sBye || tradutor.texto2 || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]);
-            if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
-              const responseb = await m.conn.groupParticipantsUpdate(id, [user], 'remove');
-              if (responseb[0].status === '404') return;
-              const fkontak2 = { 'key': { 'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo' }, 'message': { 'contactMessage': { 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` } }, 'participant': '0@s.whatsapp.net' };
-              await m.conn.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ ɴᴏ sᴇ ᴘᴇʀᴍɪᴛᴇɴ ɴᴜᴍᴇʀᴏs ᴀʀᴀʙᴇs ᴏ ʀᴀʀᴏs, ᴘᴏʀ ʟᴏ ϙᴜᴇ sᴇ ᴛᴇ sᴀᴄᴀʀᴀ ᴅᴇʟ ɢʀᴜᴘᴏ*`, mentions: [user] }, { quoted: fkontak2 });
-              return;
+     if (chat.welcome) {
+              let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
+              for (let user of participants) {
+                let pp, ppgp;
+                try {
+                  pp = await this.profilePictureUrl(user, 'image');
+                  ppgp = await this.profilePictureUrl(id, 'image');
+                } catch (error) {
+                  console.error(`حدث خطأ أثناء استرداد الصورة الشخصية: ${error}`);
+                  pp = 'https://telegra.ph/file/b9c7242b2ea534c9fea51.jpg'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/b9c7242b2ea534c9fea51.jpg'; // Assign default image URL
+                } finally {
+                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'اهلا بيك نورت تحياتي بوت التربو, @user')
+                    .replace('@subject', await this.getName(id))
+                    .replace('@desc', groupMetadata.desc?.toString() || 'لايوجد وصف')
+                    .replace('@user', '@' + user.split('@')[0]);
+          
+                  let nthMember = groupMetadata.participants.length;
+                  let secondText = `Welcome, ${await this.getName(user)}, Number ${nthMember}Member`;
+          
+                  let welcomeApiUrl = `https://api.popcat.xyz/welcomecard?background=${encodeURIComponent(
+                    'https://telegra.ph/file/b9c7242b2ea534c9fea51.jpg'
+                  )}&text1=${encodeURIComponent(
+                    await this.getName(user)
+                  )}&text2=Welcome+To+Group&text3=Number+Member:${encodeURIComponent(
+                    nthMember.toString()
+                  )}&avatar=${encodeURIComponent(pp)}`;
+          
+                  try {
+                    let welcomeResponse = await fetch(welcomeApiUrl);
+                    let welcomeBuffer = await welcomeResponse.buffer();
+          
+                    this.sendFile(id, welcomeBuffer, 'welcome.png', text, null, false, { mentions: [user] });
+                  } catch (error) {
+                    console.error(`حدث خطأ أثناء إنشاء صورة الترحيب: ${error}`);
+                  }
+                }
+              }
             }
-            await m.conn.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] });
-          }
-        }
-      }
-      break;
+            break;
+          
+          case 'remove':
+            if (chat.welcome) {
+              let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
+              for (let user of participants) {
+                let pp, ppgp;
+                try {
+                  pp = await this.profilePictureUrl(user, 'image');
+                  ppgp = await this.profilePictureUrl(id, 'image');
+                } catch (error) {
+                  console.error(`حدث خطأ أثناء استرداد الصورة الشخصية: ${error}`);
+                  pp = 'https://telegra.ph/file/b9c7242b2ea534c9fea51.jpg'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/0e611ef0f5898f84e06ff.jpg'; // Assign default image URL
+                } finally {
+                  let text = (chat.sBye || this.bye || conn.bye || 'في دهيا الي بعدو, @user')
+                    .replace('@user', '@' + user.split('@')[0]);
+          
+                  let nthMember = groupMetadata.participants.length;
+                  let secondText = `Bay, Number ${nthMember}member`;
+          
+                  let leaveApiUrl = `https://api.popcat.xyz/welcomecard?background=${encodeURIComponent(
+                    'https://telegra.ph/file/b9c7242b2ea534c9fea51.jpg'
+                  )}&text1=${encodeURIComponent(
+                    await this.getName(user)
+                  )}&text2=Good+Bay&text3=Number+Member:${encodeURIComponent(
+                    nthMember.toString()
+                  )}&avatar=${encodeURIComponent(pp)}`;
+          
+                  try {
+                    let leaveResponse = await fetch(leaveApiUrl);
+                    let leaveBuffer = await leaveResponse.buffer();
+          
+                    this.sendFile(id, leaveBuffer, 'leave.png', text, null, false, { mentions: [user] });
+                  } catch (error) {
+                    console.error(`حدث خطأ أثناء إنشاء صورة الإجازة: ${error}`);
+                  }
+                }
+              }
+            }
+            break; 
     case 'promote':
     case 'daradmin':
     case 'darpoder':
@@ -1711,11 +1759,11 @@ export async function callUpdate(callUpdate) {
   for (const nk of callUpdate) {
     if (nk.isGroup == false) {
       if (nk.status == 'offer') {
-        const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, { mentions: [nk.from] });
+        const callmsg = await mconn.conn.reply(nk.from, `اهلا ي *@${nk.from.split('@')[0]}*, ${nk.isVideo ? 'videollamadas' : 'بوت التربو'} بـص انـت اتـصلت عـلي الـبوت فا هـتـتـحظـر دلـوقـتـي روح كلـم الـمطـور لـو رنـيـت بـالـغـلـط ⚡👾`, false, { mentions: [nk.from] });
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑;;;\nFN:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nORG:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nTITLE:\nitem1.TEL;waid=5219992095479:+521 999 209 5479\nitem1.X-ABLabel:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, { contacts: { displayName: '𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑', contacts: [{ vcard }] } }, { quoted: callmsg });
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐁𝐘┋❥ 𝐓𝐀𝐑𝐁𝐎𝐎☞𝐁𝐎𝐓┋ . 👑;;;\nFN:𝐁𝐘┋❥ 𝐓𝐀𝐑𝐁𝐎𝐎☞𝐁𝐎𝐓┋ . 👑\nORG:𝐁𝐘┋❥ 𝐓𝐀𝐑𝐁𝐎𝐎☞𝐁𝐎𝐓┋ . 👑\nTITLE:\nitem1.TEL;waid=201028085788:+20 0102 808 5788\nitem1.X-ABLabel:𝐁𝐘┋❥ 𝐓𝐀𝐑𝐁𝐎𝐎☞𝐁𝐎𝐓┋ . 👑\n𝙴𝙻 𝚃𝙰𝚁𝙱𝙾𝙾👑\nEND:VCARD`;
+        await mconn.conn.sendMessage(nk.from, { contacts: { displayName: '𝐁𝐘┋❥ 𝐓𝐀𝐑𝐁𝐎𝐎☞𝐁𝐎𝐓┋ . 👑', contacts: [{ vcard }] } }, { quoted: callmsg });
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1756,7 +1804,7 @@ ${tradutor.texto1[5]}`.trim();
 
 global.dfail = (type, m, conn) => {
   const datas = global
-  const idioma = datas.db.data.users[m.sender].language || 'es';
+  const idioma = datas.db.data.users[m.sender].language || 'ar';
   const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
   const tradutor = _translate.handler.dfail
 
@@ -1773,7 +1821,7 @@ global.dfail = (type, m, conn) => {
     restrict: tradutor.texto10,
   }[type];
   const aa = { quoted: m, userJid: conn.user.jid };
-  const prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: tradutor.texto11[0], body: tradutor.texto11[1], thumbnail: imagen1, sourceUrl: tradutor.texto11[2] } } } }, aa);
+  const prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: tradutor.texto11[0], body: tradutor.texto11[1], thumbnail: imagen1, sourceUrl:'https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f' } } } }, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id });
 };
 

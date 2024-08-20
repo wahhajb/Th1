@@ -1,0 +1,7 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/nix","time":"2024-08-06T18:08:09Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/nodejs-20","time":"2024-08-06T18:08:09Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/python-3.12","time":"2024-08-06T18:08:09Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/replit","time":"2024-08-06T18:08:09Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/web","time":"2024-08-06T18:08:09Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/typescript/4.9/node_modules/.bin/acorn","time":"2024-08-06T18:08:09Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/typescript/5.4/node_modules/.bin/acorn","time":"2024-08-06T18:08:10Z"}
