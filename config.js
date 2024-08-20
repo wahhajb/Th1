@@ -7,49 +7,60 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
+global.botnumber = "+201151773932"
+global.confirmCode = ""
+
 global.owner = [
-  ['201066922164', '🔥 Alex-Y7 ❄️', true],
+  ['201151094460', '👑 Nano - Creador 👑', true],
+  ['201151773932'],
+  ['201559815566'],
+  ['201557561907'],
+  ['201227278285'],
+  ['201229419165'],
 ];
 
-global.xaxa = 'Alex-Bot'
-global.suittag = ['201066922164'];
-global.prems = ['201066922164'];
+global.suittag = ['201151773932'];
+global.prems = ['201151773932'];
 
-global.packname = 'Alex-Y7';
-global.author = '★AlexY7 - Alex Bot★';
-global.wm = '★Alex-Bot★';
-global.titulowm = '🤖Alex-Bot🤖';
-global.titulowm2 = `乂Alex-Bot乂`
-global.igfg = '★Alex-Y7★';
-global.wait = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
+global.packname = 'Sticker';
+global.author = 'The Nano - Bot';
+global.wm = 'The Nano - Bot';
+global.titulowm = 'The Nano - Bot';
+global.titulowm2 = `The Nano - Bot`
+global.igfg = 'The Nano - Bot';
+global.wait = '*[ ⏳ ] جار تلبيت طلبك...*';
 
-global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
+global.imagen1 = fs.readFileSync('./Menu.png');
+global.imagen2 = fs.readFileSync('./Menu.png');
+global.imagen3 = fs.readFileSync('./Menu.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
+global.imagen5 = fs.readFileSync('./Menu.png');
 global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen7 = fs.readFileSync('./Menu.png');
+global.imagen8 = fs.readFileSync('./Menu.png')
+global.imagen9 = fs.readFileSync('./Menu.png')
+global.imagen10 = fs.readFileSync('./Menu.png')
 
 global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'ar';
+global.locale = 'es';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('ar', {month: 'long'});
-global.año = d.toLocaleDateString('ar', {year: 'numeric'});
+global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('es', {month: 'long'});
+global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ Alex-Bot`;
-global.gt = '★Alex-Y7★';
-global.mysticbot = '★Alex-Y7★';
-global.md = 'https://chat.whatsapp.com/BjrqiXLZKmZ3jW7vEDyV27';
-global.mysticbot = 'https://chat.whatsapp.com/BjrqiXLZKmZ3jW7vEDyV27';
-global.waitt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
-global.waittt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
-global.waitttt = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
-global.nomorown = '201066922164';
+global.wm2 = `${dia} ${fecha}\nThe Nano - Bot`;
+global.gt = 'The Nano - Bot';
+global.mysticbot = 'The Nano - Bot';
+global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.waitt = '*[ ⏳ ] جاري تلبيت طلبك...*';
+global.waittt = '*[ ⏳ ] جاري تلبيت طلبك...*';
+global.waitttt = '*[ ⏳ ] جاري تلبيت طلبك...*';
+global.nomorown = '201151773932';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -64,8 +75,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; // Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;// America/Los_Angeles
+global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
