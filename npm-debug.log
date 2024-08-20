@@ -1,0 +1,1317 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/nix/store/dj805sw07vvpbxx39c8g67x8qddg0ikw-nodejs-18.12.1/bin/node',
+1 verbose cli   '/home/runner/Alex-Bot/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'moment-timezone',
+1 verbose cli   'ws',
+1 verbose cli   'axios',
+1 verbose cli   'chalk',
+1 verbose cli   'express',
+1 verbose cli   'cheerio',
+1 verbose cli   'syntax-error',
+1 verbose cli   'yargs',
+1 verbose cli   '@hapi/boom',
+1 verbose cli   'cfonts',
+1 verbose cli   'lodash',
+1 verbose cli   'md5',
+1 verbose cli   'socket.io',
+1 verbose cli   '@whiskeysockets/baileys',
+1 verbose cli   'lowdb',
+1 verbose cli   'node-fetch',
+1 verbose cli   'pino',
+1 verbose cli   'qrcode'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v18.12.1
+4 verbose install initial load of /home/runner/Alex-Bot/package.json
+5 warn package.json TheMystic-Bot-MD@1.0.0 license should be a valid SPDX license expression
+6 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/abab/package.json
+7 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/abbrev/package.json
+8 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/abort-controller/package.json
+9 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/accepts/package.json
+10 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/acorn/package.json
+11 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/acorn-globals/package.json
+12 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/acorn-jsx/package.json
+13 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/acorn-node/package.json
+14 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/acorn-walk/package.json
+15 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/acrcloud/package.json
+16 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/agent-base/package.json
+17 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ajv/package.json
+18 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ansi/package.json
+19 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ansi-escapes/package.json
+20 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ansi-regex/package.json
+21 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ansi-styles/package.json
+22 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/any-base/package.json
+23 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/api-dylux/package.json
+24 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/app-path/package.json
+25 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/aptoide-scraper/package.json
+26 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/are-we-there-yet/package.json
+27 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/argparse/package.json
+28 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/args/package.json
+29 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/array-back/package.json
+30 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/array-buffer-byte-length/package.json
+31 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/array-flatten/package.json
+32 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/array-range/package.json
+33 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/asn1/package.json
+34 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/assert-plus/package.json
+35 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/astral-regex/package.json
+36 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async/package.json
+37 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.parallellimit/package.json
+38 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.eachoflimit/package.json
+39 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.isarray/package.json
+40 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.isarraylike/package.json
+41 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.keyiterator/package.json
+42 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.keys/package.json
+43 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.noop/package.json
+44 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.once/package.json
+45 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.onlyonce/package.json
+46 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.parallel/package.json
+47 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/async.util.restparam/package.json
+48 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/asynckit/package.json
+49 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/atomic-sleep/package.json
+50 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/audio-buffer/package.json
+51 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/audio-decode/package.json
+52 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/audio-type/package.json
+53 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/available-typed-arrays/package.json
+54 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/awesome-phonenumber/package.json
+55 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/aws-sign2/package.json
+56 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/aws4/package.json
+57 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/axios/package.json
+58 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/balanced-match/package.json
+59 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/base64-js/package.json
+60 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/base64id/package.json
+61 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bcrypt-pbkdf/package.json
+62 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/big-integer/package.json
+63 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bignumber.js/package.json
+64 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/biskviit/package.json
+65 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bl/package.json
+66 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bmp-js/package.json
+67 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/body-parser/package.json
+68 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/boolbase/package.json
+69 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/boolstring/package.json
+70 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bowser/package.json
+71 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/brace-expansion/package.json
+72 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/brotli/package.json
+73 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/browser-process-hrtime/package.json
+74 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bson/package.json
+75 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/buffer/package.json
+76 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/buffer-equal/package.json
+77 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/buffer-equal-constant-time/package.json
+78 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/bytes/package.json
+79 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cache-manager/package.json
+80 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cacheable-lookup/package.json
+81 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cacheable-request/package.json
+82 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/call-bind/package.json
+83 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/callsites/package.json
+84 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/camelcase/package.json
+85 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/caseless/package.json
+86 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cfonts/package.json
+87 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/chalk/package.json
+88 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/charenc/package.json
+89 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cheerio/package.json
+90 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cheerio-select/package.json
+91 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/chownr/package.json
+92 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cli-color/package.json
+93 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cli-cursor/package.json
+94 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cli-spinners/package.json
+95 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cliui/package.json
+96 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/clone/package.json
+97 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/clone-response/package.json
+98 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/codec-parser/package.json
+99 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/color/package.json
+100 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/color-convert/package.json
+101 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/color-name/package.json
+102 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/color-string/package.json
+103 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/colorette/package.json
+104 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/colors/package.json
+105 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/combined-stream/package.json
+106 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/command-line-args/package.json
+107 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/component-emitter/package.json
+108 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/concat-map/package.json
+109 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/configstore/package.json
+110 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/content-disposition/package.json
+111 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/content-type/package.json
+112 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cookie/package.json
+113 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cookie-signature/package.json
+114 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cookiejar/package.json
+115 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/core-util-is/package.json
+116 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cors/package.json
+117 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cross-fetch/package.json
+118 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cross-spawn/package.json
+119 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/crypt/package.json
+120 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/crypto-js/package.json
+121 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/crypto-random-string/package.json
+122 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/css-select/package.json
+123 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/css-what/package.json
+124 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cssom/package.json
+125 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cssstyle/package.json
+126 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/curve25519-js/package.json
+127 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/cycled/package.json
+128 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/d/package.json
+129 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dandi-api/package.json
+130 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dashdash/package.json
+131 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dasu/package.json
+132 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/data-uri-to-buffer/package.json
+133 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/data-urls/package.json
+134 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dateformat/package.json
+135 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/debug/package.json
+136 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/decamelize/package.json
+137 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/decimal.js/package.json
+138 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/decode-gif/package.json
+139 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/decompress-response/package.json
+140 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/deep-equal/package.json
+141 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/deep-extend/package.json
+142 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/deep-is/package.json
+143 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/defaults/package.json
+144 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/defer-to-connect/package.json
+145 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/define-data-property/package.json
+146 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/define-properties/package.json
+147 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/define-property/package.json
+148 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/delay/package.json
+149 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/delayed-stream/package.json
+150 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/delegates/package.json
+151 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/depd/package.json
+152 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/destroy/package.json
+153 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/detect-libc/package.json
+154 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dfa/package.json
+155 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dhn-api/package.json
+156 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dijkstrajs/package.json
+157 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/discord-api-types/package.json
+158 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/discord.js/package.json
+159 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/doctrine/package.json
+160 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dom-serializer/package.json
+161 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dom-walk/package.json
+162 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/domelementtype/package.json
+163 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/domexception/package.json
+164 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/domhandler/package.json
+165 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/domutils/package.json
+166 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/dot-prop/package.json
+167 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/duplexer3/package.json
+168 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/duplexify/package.json
+169 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ecc-jsbn/package.json
+170 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ecdsa-sig-formatter/package.json
+171 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ee-first/package.json
+172 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/emoji-regex/package.json
+173 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/encode-utf8/package.json
+174 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/encodeurl/package.json
+175 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/encoding/package.json
+176 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/end-of-stream/package.json
+177 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/engine.io/package.json
+178 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/engine.io-parser/package.json
+179 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/entities/package.json
+180 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/es-get-iterator/package.json
+181 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/es5-ext/package.json
+182 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/es6-iterator/package.json
+183 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/es6-symbol/package.json
+184 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/es6-weak-map/package.json
+185 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/escalade/package.json
+186 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/escape-html/package.json
+187 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/escape-string-regexp/package.json
+188 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/escodegen/package.json
+189 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/eslint/package.json
+190 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/eslint-config-google/package.json
+191 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/eslint-scope/package.json
+192 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/eslint-visitor-keys/package.json
+193 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/espree/package.json
+194 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/esprima/package.json
+195 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/esquery/package.json
+196 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/esrecurse/package.json
+197 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/estraverse/package.json
+198 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/esutils/package.json
+199 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/etag/package.json
+200 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/event-emitter/package.json
+201 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/event-target-shim/package.json
+202 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/execa/package.json
+203 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/exif-parser/package.json
+204 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/expand-template/package.json
+205 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/express/package.json
+206 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ext/package.json
+207 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/extend/package.json
+208 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/extsprintf/package.json
+209 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fake-useragent/package.json
+210 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fast-deep-equal/package.json
+211 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fast-json-stable-stringify/package.json
+212 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fast-levenshtein/package.json
+213 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fast-redact/package.json
+214 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fast-safe-stringify/package.json
+215 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fast-xml-parser/package.json
+216 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fastq/package.json
+217 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fb-downloader-scrapper/package.json
+218 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fetch/package.json
+219 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fetch-blob/package.json
+220 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/file-entry-cache/package.json
+221 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/file-type/package.json
+222 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/file_size_url/package.json
+223 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/finalhandler/package.json
+224 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/find-replace/package.json
+225 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/find-up/package.json
+226 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/flat-cache/package.json
+227 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/flatted/package.json
+228 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fluent-ffmpeg/package.json
+229 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/follow-redirects/package.json
+230 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fontkit/package.json
+231 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/for-each/package.json
+232 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/forever-agent/package.json
+233 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/form-data/package.json
+234 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/form-data-encoder/package.json
+235 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/formdata-node/package.json
+236 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/formdata-polyfill/package.json
+237 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/formidable/package.json
+238 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/forwarded/package.json
+239 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fresh/package.json
+240 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fs/package.json
+241 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fs-constants/package.json
+242 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fs-extra/package.json
+243 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/fs.realpath/package.json
+244 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/function-bind/package.json
+245 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/functions-have-names/package.json
+246 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/futoin-hkdf/package.json
+247 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/gauge/package.json
+248 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/gaxios/package.json
+249 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/gcp-metadata/package.json
+250 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/get-caller-file/package.json
+251 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/get-intrinsic/package.json
+252 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/get-stream/package.json
+253 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/getpass/package.json
+254 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/gifwrap/package.json
+255 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/github-from-package/package.json
+256 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/glob/package.json
+257 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/glob-parent/package.json
+258 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/global/package.json
+259 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/globals/package.json
+260 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/google-auth-library/package.json
+261 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/google-it/package.json
+262 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/googleapis/package.json
+263 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/googleapis-common/package.json
+264 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/gopd/package.json
+265 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/got/package.json
+266 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/graceful-fs/package.json
+267 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/graphemer/package.json
+268 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/gtoken/package.json
+269 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/har-schema/package.json
+270 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/har-validator/package.json
+271 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has/package.json
+272 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-bigints/package.json
+273 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-flag/package.json
+274 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-property-descriptors/package.json
+275 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-proto/package.json
+276 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-symbols/package.json
+277 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-tostringtag/package.json
+278 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/has-unicode/package.json
+279 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/hispamemes/package.json
+280 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/html-encoding-sniffer/package.json
+281 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/htmlparser2/package.json
+282 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/http-cache-semantics/package.json
+283 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/http-errors/package.json
+284 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/http-proxy-agent/package.json
+285 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/http-signature/package.json
+286 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/http2-wrapper/package.json
+287 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/https-proxy-agent/package.json
+288 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/human-readable/package.json
+289 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/human-signals/package.json
+290 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/human-time/package.json
+291 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/iconv-lite/package.json
+292 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ieee754/package.json
+293 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ignore/package.json
+294 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/image-q/package.json
+295 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/image-size/package.json
+296 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/imagemaker.js/package.json
+297 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/import-fresh/package.json
+298 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/imurmurhash/package.json
+299 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/inflight/package.json
+300 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/inherits/package.json
+301 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ini/package.json
+302 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/insta-fetcher/package.json
+303 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/instagram-url-direct/package.json
+304 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/internal-slot/package.json
+305 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ip/package.json
+306 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ip-regex/package.json
+307 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ipaddr.js/package.json
+308 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-accessor-descriptor/package.json
+309 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-arguments/package.json
+310 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-array-buffer/package.json
+311 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-arrayish/package.json
+312 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-bigint/package.json
+313 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-boolean-object/package.json
+314 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-buffer/package.json
+315 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-callable/package.json
+316 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-data-descriptor/package.json
+317 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-date-object/package.json
+318 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-descriptor/package.json
+319 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-extglob/package.json
+320 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-fullwidth-code-point/package.json
+321 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-function/package.json
+322 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-glob/package.json
+323 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-interactive/package.json
+324 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-map/package.json
+325 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-number/package.json
+326 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-number-object/package.json
+327 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-obj/package.json
+328 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-path-inside/package.json
+329 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-potential-custom-element-name/package.json
+330 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-promise/package.json
+331 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-regex/package.json
+332 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-set/package.json
+333 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-shared-array-buffer/package.json
+334 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-stream/package.json
+335 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-string/package.json
+336 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-symbol/package.json
+337 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-typed-array/package.json
+338 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-typedarray/package.json
+339 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-weakmap/package.json
+340 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/is-weakset/package.json
+341 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/isarray/package.json
+342 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/isexe/package.json
+343 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/isstream/package.json
+344 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/iterm2-version/package.json
+345 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jimp/package.json
+346 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/joycon/package.json
+347 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jpeg-js/package.json
+348 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/js-yaml/package.json
+349 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsbarcode/package.json
+350 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsbn/package.json
+351 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsdom/package.json
+352 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsdon/package.json
+353 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/json-bigint/package.json
+354 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/json-buffer/package.json
+355 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/json-schema/package.json
+356 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/json-schema-traverse/package.json
+357 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/json-stable-stringify-without-jsonify/package.json
+358 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/json-stringify-safe/package.json
+359 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsonfile/package.json
+360 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsonpath-plus/package.json
+361 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jsprim/package.json
+362 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jwa/package.json
+363 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/jws/package.json
+364 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/kareem/package.json
+365 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/keypress/package.json
+366 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/keyv/package.json
+367 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/kind-of/package.json
+368 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/leven/package.json
+369 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/levenshtein-edit-distance/package.json
+370 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/levn/package.json
+371 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/libphonenumber-js/package.json
+372 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/libsignal/package.json
+373 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/linebreak/package.json
+374 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/link-preview-js/package.json
+375 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/load-bmfont/package.json
+376 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/locate-path/package.json
+377 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash/package.json
+378 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash.camelcase/package.json
+379 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash.clonedeep/package.json
+380 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash.merge/package.json
+381 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash.pad/package.json
+382 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash.padend/package.json
+383 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lodash.padstart/package.json
+384 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/log-symbols/package.json
+385 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/log-update/package.json
+386 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/long/package.json
+387 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lowdb/package.json
+388 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lowercase-keys/package.json
+389 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lru-cache/package.json
+390 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/lru-queue/package.json
+391 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/m3u8stream/package.json
+392 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/make-dir/package.json
+393 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/md5/package.json
+394 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/media-typer/package.json
+395 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/memoizee/package.json
+396 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/memory-pager/package.json
+397 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/merge-descriptors/package.json
+398 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/merge-stream/package.json
+399 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/methods/package.json
+400 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mime/package.json
+401 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mime-db/package.json
+402 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mime-types/package.json
+403 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mimic-fn/package.json
+404 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mimic-response/package.json
+405 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/min-document/package.json
+406 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/miniget/package.json
+407 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/minimatch/package.json
+408 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/minimist/package.json
+409 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mkdirp/package.json
+410 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mkdirp-classic/package.json
+411 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/moment/package.json
+412 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/moment-timezone/package.json
+413 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mongodb/package.json
+414 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mongodb-connection-string-url/package.json
+415 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mongoose/package.json
+416 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mpath/package.json
+417 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mpg123-decoder/package.json
+418 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mquery/package.json
+419 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mri/package.json
+420 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ms/package.json
+421 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/multistream/package.json
+422 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/music-metadata/package.json
+423 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/mute-stream/package.json
+424 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/napi-build-utils/package.json
+425 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/natural-compare/package.json
+426 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/negotiator/package.json
+427 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/next-tick/package.json
+428 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-abi/package.json
+429 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-addon-api/package.json
+430 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-cache/package.json
+431 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-domexception/package.json
+432 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-fetch/package.json
+433 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-fzf/package.json
+434 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-gtts/package.json
+435 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-id3/package.json
+436 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-wav/package.json
+437 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/node-webpmux/package.json
+438 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/nopt/package.json
+439 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/normalize-url/package.json
+440 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/npm/package.json
+441 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/npm-run-path/package.json
+442 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/npmlog/package.json
+443 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/nth-check/package.json
+444 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/nwsapi/package.json
+445 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/oauth-sign/package.json
+446 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/object-assign/package.json
+447 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/object-inspect/package.json
+448 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/object-is/package.json
+449 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/object-keys/package.json
+450 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/object.assign/package.json
+451 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ogg-opus-decoder/package.json
+452 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/omggif/package.json
+453 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/on-exit-leak-free/package.json
+454 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/on-finished/package.json
+455 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/once/package.json
+456 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/onetime/package.json
+457 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/openai/package.json
+458 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/optionator/package.json
+459 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/opus-decoder/package.json
+460 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ora/package.json
+461 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/p-cancelable/package.json
+462 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/p-limit/package.json
+463 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/p-locate/package.json
+464 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/p-try/package.json
+465 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pako/package.json
+466 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parent-module/package.json
+467 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parse-bmfont-ascii/package.json
+468 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parse-bmfont-binary/package.json
+469 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parse-bmfont-xml/package.json
+470 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parse-headers/package.json
+471 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parse5/package.json
+472 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parse5-htmlparser2-tree-adapter/package.json
+473 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/parseurl/package.json
+474 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/path-exists/package.json
+475 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/path-is-absolute/package.json
+476 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/path-key/package.json
+477 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/path-to-regexp/package.json
+478 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pdfkit/package.json
+479 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/peek-readable/package.json
+480 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/perf_hooks/package.json
+481 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/performance-now/package.json
+482 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/phin/package.json
+483 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pino/package.json
+484 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pino-abstract-transport/package.json
+485 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pino-pretty/package.json
+486 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pino-std-serializers/package.json
+487 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pixelmatch/package.json
+488 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/plist/package.json
+489 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/png-js/package.json
+490 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pngjs/package.json
+491 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/prebuild-install/package.json
+492 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/prelude-ls/package.json
+493 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/prepend-http/package.json
+494 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/process/package.json
+495 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/process-nextick-args/package.json
+496 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/process-warning/package.json
+497 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/protobufjs/package.json
+498 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/proxy-addr/package.json
+499 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/proxy-from-env/package.json
+500 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/psl/package.json
+501 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/publish/package.json
+502 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/pump/package.json
+503 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/punycode/package.json
+504 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/qoa-format/package.json
+505 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/qrcode/package.json
+506 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/qrcode-terminal/package.json
+507 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/qs/package.json
+508 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/querystring/package.json
+509 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/querystringify/package.json
+510 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/queue/package.json
+511 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/queue-microtask/package.json
+512 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/quick-format-unescaped/package.json
+513 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/quick-lru/package.json
+514 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/range-parser/package.json
+515 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/raw-body/package.json
+516 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/rc/package.json
+517 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/readable-stream/package.json
+518 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/readable-web-to-node-stream/package.json
+519 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/readline/package.json
+520 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/real-require/package.json
+521 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/redstar/package.json
+522 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/regenerator-runtime/package.json
+523 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/regexp.prototype.flags/package.json
+524 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/render-gif/package.json
+525 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/request/package.json
+526 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/require-directory/package.json
+527 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/require-main-filename/package.json
+528 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/requires-port/package.json
+529 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/resolve-alpn/package.json
+530 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/resolve-from/package.json
+531 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/responselike/package.json
+532 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/restore-cursor/package.json
+533 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/restructure/package.json
+534 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/reusify/package.json
+535 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/rfdc/package.json
+536 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/rimraf/package.json
+537 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/run-parallel/package.json
+538 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/safe-buffer/package.json
+539 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/safe-stable-stringify/package.json
+540 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/safer-buffer/package.json
+541 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/sax/package.json
+542 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/saxes/package.json
+543 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/secure-json-parse/package.json
+544 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/semver/package.json
+545 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/send/package.json
+546 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/serve-static/package.json
+547 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/set-blocking/package.json
+548 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/set-function-name/package.json
+549 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/setprototypeof/package.json
+550 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/sharp/package.json
+551 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/shebang-command/package.json
+552 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/shebang-regex/package.json
+553 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/side-channel/package.json
+554 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/sift/package.json
+555 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/signal-exit/package.json
+556 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/similarity/package.json
+557 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/simple-concat/package.json
+558 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/simple-get/package.json
+559 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/simple-swizzle/package.json
+560 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/slice-ansi/package.json
+561 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/smart-buffer/package.json
+562 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/socket.io/package.json
+563 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/socket.io-adapter/package.json
+564 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/socket.io-parser/package.json
+565 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/socks/package.json
+566 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/sonic-boom/package.json
+567 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/source-map/package.json
+568 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/sparse-bitfield/package.json
+569 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/split2/package.json
+570 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/spotify-web-api-node/package.json
+571 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/spotifydl-x/package.json
+572 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/sshpk/package.json
+573 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/statuses/package.json
+574 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/steno/package.json
+575 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/stop-iteration-iterator/package.json
+576 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/stream-shift/package.json
+577 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/string-width/package.json
+578 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/string_decoder/package.json
+579 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/strip-ansi/package.json
+580 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/strip-final-newline/package.json
+581 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/strip-json-comments/package.json
+582 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/strnum/package.json
+583 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/strtok3/package.json
+584 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/superagent/package.json
+585 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/supports-color/package.json
+586 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/symbol-tree/package.json
+587 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/syntax-error/package.json
+588 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tar-fs/package.json
+589 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tar-stream/package.json
+590 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/term-img/package.json
+591 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/terminal-image/package.json
+592 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/text-table/package.json
+593 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/thread-stream/package.json
+594 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/timers-ext/package.json
+595 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/timm/package.json
+596 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tiny-inflate/package.json
+597 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tinycolor2/package.json
+598 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tlds/package.json
+599 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/to-readable-stream/package.json
+600 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/toidentifier/package.json
+601 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/token-types/package.json
+602 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tough-cookie/package.json
+603 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tr46/package.json
+604 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ts-mixer/package.json
+605 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tslib/package.json
+606 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ttys/package.json
+607 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tunnel-agent/package.json
+608 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/tweetnacl/package.json
+609 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/type/package.json
+610 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/type-check/package.json
+611 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/type-fest/package.json
+612 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/type-is/package.json
+613 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/typedarray-to-buffer/package.json
+614 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/typescript/package.json
+615 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/typical/package.json
+616 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/unicode-properties/package.json
+617 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/unicode-trie/package.json
+618 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/unique-string/package.json
+619 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/universalify/package.json
+620 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/unpipe/package.json
+621 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/uri-js/package.json
+622 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/url/package.json
+623 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/url-parse/package.json
+624 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/url-parse-lax/package.json
+625 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/url-regex-safe/package.json
+626 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/url-template/package.json
+627 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/utif/package.json
+628 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/util-deprecate/package.json
+629 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/utils-merge/package.json
+630 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/uuid/package.json
+631 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/vary/package.json
+632 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/verror/package.json
+633 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/w3c-hr-time/package.json
+634 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/w3c-xmlserializer/package.json
+635 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/wa-sticker-formatter/package.json
+636 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/wcwidth/package.json
+637 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/web-streams-polyfill/package.json
+638 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/webidl-conversions/package.json
+639 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/whatwg-encoding/package.json
+640 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/whatwg-mimetype/package.json
+641 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/whatwg-url/package.json
+642 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/which/package.json
+643 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/which-boxed-primitive/package.json
+644 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/which-collection/package.json
+645 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/which-module/package.json
+646 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/which-typed-array/package.json
+647 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/window-size/package.json
+648 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/wrap-ansi/package.json
+649 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/wrappy/package.json
+650 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/write-file-atomic/package.json
+651 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ws/package.json
+652 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xdg-basedir/package.json
+653 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xhr/package.json
+654 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xml-name-validator/package.json
+655 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xml-parse-from-string/package.json
+656 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xml2js/package.json
+657 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xmlbuilder/package.json
+658 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xmlchars/package.json
+659 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xmldom/package.json
+660 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/xtend/package.json
+661 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/y18n/package.json
+662 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/yallist/package.json
+663 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/yargs/package.json
+664 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/yargs-parser/package.json
+665 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/yocto-queue/package.json
+666 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/youtubedl-core/package.json
+667 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/yt-search/package.json
+668 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/ytdl-core/package.json
+669 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/zod/package.json
+670 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@adiwajshing/keyed-db/package.json
+671 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-crypto/crc32/package.json
+672 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-crypto/ie11-detection/package.json
+673 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-crypto/sha256-browser/package.json
+674 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-crypto/sha256-js/package.json
+675 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-crypto/supports-web-crypto/package.json
+676 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-crypto/util/package.json
+677 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/client-cognito-identity/package.json
+678 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/client-sso/package.json
+679 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/client-sts/package.json
+680 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-cognito-identity/package.json
+681 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-env/package.json
+682 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-ini/package.json
+683 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-node/package.json
+684 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-process/package.json
+685 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-sso/package.json
+686 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-provider-web-identity/package.json
+687 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/credential-providers/package.json
+688 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/middleware-host-header/package.json
+689 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/middleware-logger/package.json
+690 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/middleware-recursion-detection/package.json
+691 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/middleware-sdk-sts/package.json
+692 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/middleware-signing/package.json
+693 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/middleware-user-agent/package.json
+694 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/region-config-resolver/package.json
+695 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/token-providers/package.json
+696 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/types/package.json
+697 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/util-endpoints/package.json
+698 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/util-locate-window/package.json
+699 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/util-user-agent-browser/package.json
+700 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/util-user-agent-node/package.json
+701 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aws-sdk/util-utf8-browser/package.json
+702 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@babel/runtime/package.json
+703 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@aashutoshrathi/word-wrap/package.json
+704 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper/package.json
+705 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-bmkg/package.json
+706 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-downloader/package.json
+707 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-games/package.json
+708 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-images/package.json
+709 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-news/package.json
+710 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-others/package.json
+711 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-primbon/package.json
+712 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-religions/package.json
+713 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-sosmed/package.json
+714 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@bochilteam/scraper-texts/package.json
+715 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@brandond/findthelyrics/package.json
+716 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@eslint/eslintrc/package.json
+717 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@eslint/js/package.json
+718 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@eslint-community/eslint-utils/package.json
+719 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@eslint-community/regexpp/package.json
+720 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@green-code/music-track-data/package.json
+721 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@discordjs/builders/package.json
+722 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@discordjs/collection/package.json
+723 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@hapi/boom/package.json
+724 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@hapi/hoek/package.json
+725 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@eshaz/web-worker/package.json
+726 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@humanwhocodes/config-array/package.json
+727 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@humanwhocodes/module-importer/package.json
+728 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@humanwhocodes/object-schema/package.json
+729 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/bmp/package.json
+730 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/core/package.json
+731 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/custom/package.json
+732 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/gif/package.json
+733 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/jpeg/package.json
+734 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-blit/package.json
+735 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-blur/package.json
+736 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-circle/package.json
+737 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-color/package.json
+738 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-contain/package.json
+739 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-cover/package.json
+740 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-crop/package.json
+741 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-displace/package.json
+742 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-dither/package.json
+743 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-fisheye/package.json
+744 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-flip/package.json
+745 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-gaussian/package.json
+746 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-invert/package.json
+747 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-mask/package.json
+748 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-normalize/package.json
+749 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-print/package.json
+750 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-resize/package.json
+751 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-rotate/package.json
+752 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-scale/package.json
+753 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-shadow/package.json
+754 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugin-threshold/package.json
+755 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/plugins/package.json
+756 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/png/package.json
+757 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/tiff/package.json
+758 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/types/package.json
+759 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@jimp/utils/package.json
+760 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@mongodb-js/saslprep/package.json
+761 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@nodelib/fs.scandir/package.json
+762 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@nodelib/fs.stat/package.json
+763 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@nodelib/fs.walk/package.json
+764 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/aspromise/package.json
+765 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/base64/package.json
+766 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/codegen/package.json
+767 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/eventemitter/package.json
+768 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/fetch/package.json
+769 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/float/package.json
+770 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/inquire/package.json
+771 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/path/package.json
+772 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/pool/package.json
+773 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@protobufjs/utf8/package.json
+774 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@sapphire/async-queue/package.json
+775 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@sapphire/shapeshift/package.json
+776 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@shineiichijo/marika/package.json
+777 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@sindresorhus/is/package.json
+778 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@socket.io/component-emitter/package.json
+779 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@swc/helpers/package.json
+780 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/abort-controller/package.json
+781 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/config-resolver/package.json
+782 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/credential-provider-imds/package.json
+783 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/eventstream-codec/package.json
+784 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/fetch-http-handler/package.json
+785 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/hash-node/package.json
+786 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/invalid-dependency/package.json
+787 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/is-array-buffer/package.json
+788 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/middleware-content-length/package.json
+789 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/middleware-endpoint/package.json
+790 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/middleware-retry/package.json
+791 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/middleware-serde/package.json
+792 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/middleware-stack/package.json
+793 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/node-config-provider/package.json
+794 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/node-http-handler/package.json
+795 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/property-provider/package.json
+796 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/protocol-http/package.json
+797 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/querystring-builder/package.json
+798 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/querystring-parser/package.json
+799 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/service-error-classification/package.json
+800 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/shared-ini-file-loader/package.json
+801 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/signature-v4/package.json
+802 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/smithy-client/package.json
+803 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/types/package.json
+804 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/url-parser/package.json
+805 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-base64/package.json
+806 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-body-length-browser/package.json
+807 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-body-length-node/package.json
+808 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-buffer-from/package.json
+809 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-config-provider/package.json
+810 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-defaults-mode-browser/package.json
+811 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-defaults-mode-node/package.json
+812 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-hex-encoding/package.json
+813 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-middleware/package.json
+814 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-retry/package.json
+815 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-stream/package.json
+816 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-uri-escape/package.json
+817 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@smithy/util-utf8/package.json
+818 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@szmarczak/http-timer/package.json
+819 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@tokenizer/token/package.json
+820 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@tootallnate/once/package.json
+821 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/cacheable-request/package.json
+822 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/cookie/package.json
+823 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/cors/package.json
+824 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/http-cache-semantics/package.json
+825 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/keyv/package.json
+826 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/long/package.json
+827 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/node/package.json
+828 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/node-fetch/package.json
+829 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/responselike/package.json
+830 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/webidl-conversions/package.json
+831 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/whatwg-url/package.json
+832 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@types/ws/package.json
+833 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@thi.ng/bitstream/package.json
+834 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@thi.ng/errors/package.json
+835 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@vitalets/google-translate-api/package.json
+836 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@whiskeysockets/baileys/package.json
+837 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@wasm-audio-decoders/common/package.json
+838 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@wasm-audio-decoders/flac/package.json
+839 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@wasm-audio-decoders/ogg-vorbis/package.json
+840 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@xmldom/xmldom/package.json
+841 verbose installManyTop reading scoped package data from /home/runner/Alex-Bot/node_modules/@xct007/frieren-scraper/package.json
+842 info package.json redstar@0.0.2 No README data
+843 info package.json @swc/helpers@0.3.17 No README data
+844 info package.json @wasm-audio-decoders/common@9.0.1 No README data
+845 info package.json buffer@5.7.1 buffer is also the name of a node core module.
+846 info package.json codec-parser@2.4.3 license should be a valid SPDX license expression
+847 info package.json dom-walk@0.1.2 No license field.
+848 info package.json exif-parser@0.1.12 No license field.
+849 info package.json fs@0.0.1-security fs is also the name of a node core module.
+850 info package.json min-document@2.19.0 No license field.
+851 info package.json npm@2.15.12 Non-dependency in bundleDependencies: ansi-regex
+852 info package.json npm@2.15.12 Non-dependency in bundleDependencies: imurmurhash
+853 info package.json perf_hooks@0.0.1 perf_hooks is also the name of a node core module.
+854 info package.json process@0.11.10 process is also the name of a node core module.
+855 info package.json png-js@1.0.0 No license field.
+856 info package.json qrcode-terminal@0.12.0 No license field.
+857 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+858 info package.json querystring@0.2.0 No license field.
+859 info package.json readline@1.3.0 readline is also the name of a node core module.
+860 info package.json readline@1.3.0 license should be a valid SPDX license expression
+861 info package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+862 info package.json ttys@0.0.3 No license field.
+863 info package.json url@0.11.3 url is also the name of a node core module.
+864 info package.json url-template@2.0.8 license should be a valid SPDX license expression
+865 info package.json @bochilteam/scraper@4.2.4 license should be a valid SPDX license expression
+866 info package.json @bochilteam/scraper-bmkg@1.0.2 license should be a valid SPDX license expression
+867 info package.json @bochilteam/scraper-games@1.0.2 license should be a valid SPDX license expression
+868 info package.json @bochilteam/scraper-downloader@1.0.2 license should be a valid SPDX license expression
+869 info package.json @bochilteam/scraper-news@1.0.2 license should be a valid SPDX license expression
+870 info package.json @bochilteam/scraper-primbon@1.0.2 license should be a valid SPDX license expression
+871 info package.json @bochilteam/scraper-images@1.0.2 license should be a valid SPDX license expression
+872 info package.json @bochilteam/scraper-religions@1.0.2 license should be a valid SPDX license expression
+873 info package.json @bochilteam/scraper-others@1.0.2 license should be a valid SPDX license expression
+874 info package.json @bochilteam/scraper-sosmed@1.0.5 license should be a valid SPDX license expression
+875 info package.json @bochilteam/scraper-texts@1.0.2 license should be a valid SPDX license expression
+876 info package.json @jimp/bmp@0.16.13 No repository field.
+877 info package.json @jimp/jpeg@0.16.13 No repository field.
+878 info package.json @jimp/gif@0.16.13 No repository field.
+879 info package.json @jimp/plugin-blit@0.16.13 No repository field.
+880 info package.json @jimp/plugin-blur@0.16.13 No repository field.
+881 info package.json @jimp/plugin-displace@0.16.13 No repository field.
+882 info package.json @jimp/custom@0.16.13 No repository field.
+883 info package.json @jimp/plugin-dither@0.16.13 No repository field.
+884 info package.json @jimp/plugin-invert@0.16.13 No repository field.
+885 info package.json @jimp/plugin-crop@0.16.13 No repository field.
+886 info package.json @jimp/plugin-fisheye@0.16.13 No repository field.
+887 info package.json @jimp/plugin-flip@0.16.13 No repository field.
+888 info package.json @jimp/plugin-gaussian@0.16.13 No repository field.
+889 info package.json @jimp/plugin-mask@0.16.13 No repository field.
+890 info package.json @jimp/plugin-cover@0.16.13 No repository field.
+891 info package.json @jimp/plugin-circle@0.16.13 No repository field.
+892 info package.json @jimp/plugin-contain@0.16.13 No repository field.
+893 info package.json @jimp/plugin-scale@0.16.13 No repository field.
+894 info package.json @jimp/plugin-rotate@0.16.13 No repository field.
+895 info package.json @jimp/plugin-resize@0.16.13 No repository field.
+896 info package.json @jimp/plugins@0.16.13 No repository field.
+897 info package.json @jimp/tiff@0.16.13 No repository field.
+898 info package.json @jimp/plugin-shadow@0.16.13 No repository field.
+899 info package.json @jimp/png@0.16.13 No repository field.
+900 info package.json @jimp/types@0.16.13 No repository field.
+901 info package.json @jimp/plugin-color@0.16.13 No repository field.
+902 info package.json @jimp/utils@0.16.13 No repository field.
+903 info package.json @jimp/plugin-normalize@0.16.13 No repository field.
+904 info package.json @jimp/plugin-print@0.16.13 No repository field.
+905 info package.json @jimp/plugin-threshold@0.16.13 No repository field.
+906 info package.json punycode@2.3.0 punycode is also the name of a node core module.
+907 verbose readDependencies loading dependencies from /home/runner/Alex-Bot/package.json
+908 verbose install moment-timezone is installed as 0.5.43
+909 silly cache add args [ 'moment-timezone@^0.5.34', null ]
+910 verbose cache add spec moment-timezone@^0.5.34
+911 verbose install ws is installed as 8.14.2
+912 silly cache add args [ 'ws@^8.14.2', null ]
+913 verbose cache add spec ws@^8.14.2
+914 verbose install axios is installed as 1.5.1
+915 silly cache add args [ 'axios@^1.1.3', null ]
+916 verbose cache add spec axios@^1.1.3
+917 verbose install chalk is installed as 5.3.0
+918 silly cache add args [ 'chalk@^5.0.0', null ]
+919 verbose cache add spec chalk@^5.0.0
+920 verbose install express is installed as 4.18.2
+921 silly cache add args [ 'express@^4.17.3', null ]
+922 verbose cache add spec express@^4.17.3
+923 verbose install cheerio is installed as 1.0.0-rc.12
+924 silly cache add args [ 'cheerio@^1.0.0-rc.10', null ]
+925 verbose cache add spec cheerio@^1.0.0-rc.10
+926 verbose install syntax-error is installed as 1.4.0
+927 silly cache add args [ 'syntax-error@^1.4.0', null ]
+928 verbose cache add spec syntax-error@^1.4.0
+929 verbose install yargs is installed as 17.7.2
+930 silly cache add args [ 'yargs@^17.3.1', null ]
+931 verbose cache add spec yargs@^17.3.1
+932 verbose install @hapi/boom is installed as 10.0.1
+933 silly cache add args [ '@hapi/boom@^10.0.1', null ]
+934 verbose cache add spec @hapi/boom@^10.0.1
+935 verbose install cfonts is installed as 2.10.1
+936 silly cache add args [ 'cfonts@^2.10.0', null ]
+937 verbose cache add spec cfonts@^2.10.0
+938 verbose install lodash is installed as 4.17.21
+939 silly cache add args [ 'lodash@^4.17.21', null ]
+940 verbose cache add spec lodash@^4.17.21
+941 verbose install md5 is installed as 2.3.0
+942 silly cache add args [ 'md5@^2.3.0', null ]
+943 verbose cache add spec md5@^2.3.0
+944 verbose install socket.io is installed as 4.7.2
+945 silly cache add args [ 'socket.io@^4.4.1', null ]
+946 verbose cache add spec socket.io@^4.4.1
+947 verbose install @whiskeysockets/baileys is installed as 6.4.1
+948 silly cache add args [ '@whiskeysockets/baileys@npm:@whiskeysockets/baileys', null ]
+949 verbose cache add spec @whiskeysockets/baileys@npm:@whiskeysockets/baileys
+950 verbose install lowdb is installed as 3.0.0
+951 silly cache add args [ 'lowdb@^3.0.0', null ]
+952 verbose cache add spec lowdb@^3.0.0
+953 verbose install node-fetch is installed as 3.3.0
+954 silly cache add args [ 'node-fetch@^3.2.0', null ]
+955 verbose cache add spec node-fetch@^3.2.0
+956 verbose install pino is installed as 7.11.0
+957 silly cache add args [ 'pino@^7.8.0', null ]
+958 verbose cache add spec pino@^7.8.0
+959 verbose install qrcode is installed as 1.5.3
+960 silly cache add args [ 'qrcode@^1.5.0', null ]
+961 verbose cache add spec qrcode@^1.5.0
+962 silly cache add parsed spec Result {
+962 silly cache add   raw: 'moment-timezone@^0.5.34',
+962 silly cache add   scope: null,
+962 silly cache add   name: 'moment-timezone',
+962 silly cache add   rawSpec: '^0.5.34',
+962 silly cache add   spec: '>=0.5.34 <0.6.0',
+962 silly cache add   type: 'range'
+962 silly cache add }
+963 silly addNamed moment-timezone@>=0.5.34 <0.6.0
+964 verbose addNamed ">=0.5.34 <0.6.0" is a valid semver range for moment-timezone
+965 silly addNameRange { name: 'moment-timezone', range: '>=0.5.34 <0.6.0', hasData: false }
+966 silly mapToRegistry name moment-timezone
+967 silly mapToRegistry using default registry
+968 silly mapToRegistry registry https://registry.npmjs.org/
+969 silly mapToRegistry data Result {
+969 silly mapToRegistry   raw: 'moment-timezone',
+969 silly mapToRegistry   scope: null,
+969 silly mapToRegistry   name: 'moment-timezone',
+969 silly mapToRegistry   rawSpec: '',
+969 silly mapToRegistry   spec: 'latest',
+969 silly mapToRegistry   type: 'tag'
+969 silly mapToRegistry }
+970 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+971 verbose addNameRange registry:https://registry.npmjs.org/moment-timezone not in flight; fetching
+972 silly cache add parsed spec Result {
+972 silly cache add   raw: 'ws@^8.14.2',
+972 silly cache add   scope: null,
+972 silly cache add   name: 'ws',
+972 silly cache add   rawSpec: '^8.14.2',
+972 silly cache add   spec: '>=8.14.2 <9.0.0',
+972 silly cache add   type: 'range'
+972 silly cache add }
+973 silly addNamed ws@>=8.14.2 <9.0.0
+974 verbose addNamed ">=8.14.2 <9.0.0" is a valid semver range for ws
+975 silly addNameRange { name: 'ws', range: '>=8.14.2 <9.0.0', hasData: false }
+976 silly mapToRegistry name ws
+977 silly mapToRegistry using default registry
+978 silly mapToRegistry registry https://registry.npmjs.org/
+979 silly mapToRegistry data Result {
+979 silly mapToRegistry   raw: 'ws',
+979 silly mapToRegistry   scope: null,
+979 silly mapToRegistry   name: 'ws',
+979 silly mapToRegistry   rawSpec: '',
+979 silly mapToRegistry   spec: 'latest',
+979 silly mapToRegistry   type: 'tag'
+979 silly mapToRegistry }
+980 silly mapToRegistry uri https://registry.npmjs.org/ws
+981 verbose addNameRange registry:https://registry.npmjs.org/ws not in flight; fetching
+982 silly cache add parsed spec Result {
+982 silly cache add   raw: 'axios@^1.1.3',
+982 silly cache add   scope: null,
+982 silly cache add   name: 'axios',
+982 silly cache add   rawSpec: '^1.1.3',
+982 silly cache add   spec: '>=1.1.3 <2.0.0',
+982 silly cache add   type: 'range'
+982 silly cache add }
+983 silly addNamed axios@>=1.1.3 <2.0.0
+984 verbose addNamed ">=1.1.3 <2.0.0" is a valid semver range for axios
+985 silly addNameRange { name: 'axios', range: '>=1.1.3 <2.0.0', hasData: false }
+986 silly mapToRegistry name axios
+987 silly mapToRegistry using default registry
+988 silly mapToRegistry registry https://registry.npmjs.org/
+989 silly mapToRegistry data Result {
+989 silly mapToRegistry   raw: 'axios',
+989 silly mapToRegistry   scope: null,
+989 silly mapToRegistry   name: 'axios',
+989 silly mapToRegistry   rawSpec: '',
+989 silly mapToRegistry   spec: 'latest',
+989 silly mapToRegistry   type: 'tag'
+989 silly mapToRegistry }
+990 silly mapToRegistry uri https://registry.npmjs.org/axios
+991 verbose addNameRange registry:https://registry.npmjs.org/axios not in flight; fetching
+992 silly cache add parsed spec Result {
+992 silly cache add   raw: 'chalk@^5.0.0',
+992 silly cache add   scope: null,
+992 silly cache add   name: 'chalk',
+992 silly cache add   rawSpec: '^5.0.0',
+992 silly cache add   spec: '>=5.0.0 <6.0.0',
+992 silly cache add   type: 'range'
+992 silly cache add }
+993 silly addNamed chalk@>=5.0.0 <6.0.0
+994 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for chalk
+995 silly addNameRange { name: 'chalk', range: '>=5.0.0 <6.0.0', hasData: false }
+996 silly mapToRegistry name chalk
+997 silly mapToRegistry using default registry
+998 silly mapToRegistry registry https://registry.npmjs.org/
+999 silly mapToRegistry data Result {
+999 silly mapToRegistry   raw: 'chalk',
+999 silly mapToRegistry   scope: null,
+999 silly mapToRegistry   name: 'chalk',
+999 silly mapToRegistry   rawSpec: '',
+999 silly mapToRegistry   spec: 'latest',
+999 silly mapToRegistry   type: 'tag'
+999 silly mapToRegistry }
+1000 silly mapToRegistry uri https://registry.npmjs.org/chalk
+1001 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+1002 silly cache add parsed spec Result {
+1002 silly cache add   raw: 'express@^4.17.3',
+1002 silly cache add   scope: null,
+1002 silly cache add   name: 'express',
+1002 silly cache add   rawSpec: '^4.17.3',
+1002 silly cache add   spec: '>=4.17.3 <5.0.0',
+1002 silly cache add   type: 'range'
+1002 silly cache add }
+1003 silly addNamed express@>=4.17.3 <5.0.0
+1004 verbose addNamed ">=4.17.3 <5.0.0" is a valid semver range for express
+1005 silly addNameRange { name: 'express', range: '>=4.17.3 <5.0.0', hasData: false }
+1006 silly mapToRegistry name express
+1007 silly mapToRegistry using default registry
+1008 silly mapToRegistry registry https://registry.npmjs.org/
+1009 silly mapToRegistry data Result {
+1009 silly mapToRegistry   raw: 'express',
+1009 silly mapToRegistry   scope: null,
+1009 silly mapToRegistry   name: 'express',
+1009 silly mapToRegistry   rawSpec: '',
+1009 silly mapToRegistry   spec: 'latest',
+1009 silly mapToRegistry   type: 'tag'
+1009 silly mapToRegistry }
+1010 silly mapToRegistry uri https://registry.npmjs.org/express
+1011 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+1012 silly cache add parsed spec Result {
+1012 silly cache add   raw: 'cheerio@^1.0.0-rc.10',
+1012 silly cache add   scope: null,
+1012 silly cache add   name: 'cheerio',
+1012 silly cache add   rawSpec: '^1.0.0-rc.10',
+1012 silly cache add   spec: '>=1.0.0-rc.10 <2.0.0',
+1012 silly cache add   type: 'range'
+1012 silly cache add }
+1013 silly addNamed cheerio@>=1.0.0-rc.10 <2.0.0
+1014 verbose addNamed ">=1.0.0-rc.10 <2.0.0" is a valid semver range for cheerio
+1015 silly addNameRange { name: 'cheerio', range: '>=1.0.0-rc.10 <2.0.0', hasData: false }
+1016 silly mapToRegistry name cheerio
+1017 silly mapToRegistry using default registry
+1018 silly mapToRegistry registry https://registry.npmjs.org/
+1019 silly mapToRegistry data Result {
+1019 silly mapToRegistry   raw: 'cheerio',
+1019 silly mapToRegistry   scope: null,
+1019 silly mapToRegistry   name: 'cheerio',
+1019 silly mapToRegistry   rawSpec: '',
+1019 silly mapToRegistry   spec: 'latest',
+1019 silly mapToRegistry   type: 'tag'
+1019 silly mapToRegistry }
+1020 silly mapToRegistry uri https://registry.npmjs.org/cheerio
+1021 verbose addNameRange registry:https://registry.npmjs.org/cheerio not in flight; fetching
+1022 silly cache add parsed spec Result {
+1022 silly cache add   raw: 'syntax-error@^1.4.0',
+1022 silly cache add   scope: null,
+1022 silly cache add   name: 'syntax-error',
+1022 silly cache add   rawSpec: '^1.4.0',
+1022 silly cache add   spec: '>=1.4.0 <2.0.0',
+1022 silly cache add   type: 'range'
+1022 silly cache add }
+1023 silly addNamed syntax-error@>=1.4.0 <2.0.0
+1024 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for syntax-error
+1025 silly addNameRange { name: 'syntax-error', range: '>=1.4.0 <2.0.0', hasData: false }
+1026 silly mapToRegistry name syntax-error
+1027 silly mapToRegistry using default registry
+1028 silly mapToRegistry registry https://registry.npmjs.org/
+1029 silly mapToRegistry data Result {
+1029 silly mapToRegistry   raw: 'syntax-error',
+1029 silly mapToRegistry   scope: null,
+1029 silly mapToRegistry   name: 'syntax-error',
+1029 silly mapToRegistry   rawSpec: '',
+1029 silly mapToRegistry   spec: 'latest',
+1029 silly mapToRegistry   type: 'tag'
+1029 silly mapToRegistry }
+1030 silly mapToRegistry uri https://registry.npmjs.org/syntax-error
+1031 verbose addNameRange registry:https://registry.npmjs.org/syntax-error not in flight; fetching
+1032 silly cache add parsed spec Result {
+1032 silly cache add   raw: 'yargs@^17.3.1',
+1032 silly cache add   scope: null,
+1032 silly cache add   name: 'yargs',
+1032 silly cache add   rawSpec: '^17.3.1',
+1032 silly cache add   spec: '>=17.3.1 <18.0.0',
+1032 silly cache add   type: 'range'
+1032 silly cache add }
+1033 silly addNamed yargs@>=17.3.1 <18.0.0
+1034 verbose addNamed ">=17.3.1 <18.0.0" is a valid semver range for yargs
+1035 silly addNameRange { name: 'yargs', range: '>=17.3.1 <18.0.0', hasData: false }
+1036 silly mapToRegistry name yargs
+1037 silly mapToRegistry using default registry
+1038 silly mapToRegistry registry https://registry.npmjs.org/
+1039 silly mapToRegistry data Result {
+1039 silly mapToRegistry   raw: 'yargs',
+1039 silly mapToRegistry   scope: null,
+1039 silly mapToRegistry   name: 'yargs',
+1039 silly mapToRegistry   rawSpec: '',
+1039 silly mapToRegistry   spec: 'latest',
+1039 silly mapToRegistry   type: 'tag'
+1039 silly mapToRegistry }
+1040 silly mapToRegistry uri https://registry.npmjs.org/yargs
+1041 verbose addNameRange registry:https://registry.npmjs.org/yargs not in flight; fetching
+1042 silly cache add parsed spec Result {
+1042 silly cache add   raw: '@hapi/boom@^10.0.1',
+1042 silly cache add   scope: '@hapi',
+1042 silly cache add   name: '@hapi/boom',
+1042 silly cache add   rawSpec: '^10.0.1',
+1042 silly cache add   spec: '>=10.0.1 <11.0.0',
+1042 silly cache add   type: 'range'
+1042 silly cache add }
+1043 silly addNamed @hapi/boom@>=10.0.1 <11.0.0
+1044 verbose addNamed ">=10.0.1 <11.0.0" is a valid semver range for @hapi/boom
+1045 silly addNameRange { name: '@hapi/boom', range: '>=10.0.1 <11.0.0', hasData: false }
+1046 silly mapToRegistry name @hapi/boom
+1047 silly mapToRegistry scope (from package name) @hapi
+1048 verbose mapToRegistry no registry URL found in name for scope @hapi
+1049 silly mapToRegistry using default registry
+1050 silly mapToRegistry registry https://registry.npmjs.org/
+1051 silly mapToRegistry data Result {
+1051 silly mapToRegistry   raw: '@hapi/boom',
+1051 silly mapToRegistry   scope: '@hapi',
+1051 silly mapToRegistry   name: '@hapi/boom',
+1051 silly mapToRegistry   rawSpec: '',
+1051 silly mapToRegistry   spec: 'latest',
+1051 silly mapToRegistry   type: 'tag'
+1051 silly mapToRegistry }
+1052 silly mapToRegistry uri https://registry.npmjs.org/@hapi%2fboom
+1053 verbose addNameRange registry:https://registry.npmjs.org/@hapi%2fboom not in flight; fetching
+1054 silly cache add parsed spec Result {
+1054 silly cache add   raw: 'cfonts@^2.10.0',
+1054 silly cache add   scope: null,
+1054 silly cache add   name: 'cfonts',
+1054 silly cache add   rawSpec: '^2.10.0',
+1054 silly cache add   spec: '>=2.10.0 <3.0.0',
+1054 silly cache add   type: 'range'
+1054 silly cache add }
+1055 silly addNamed cfonts@>=2.10.0 <3.0.0
+1056 verbose addNamed ">=2.10.0 <3.0.0" is a valid semver range for cfonts
+1057 silly addNameRange { name: 'cfonts', range: '>=2.10.0 <3.0.0', hasData: false }
+1058 silly mapToRegistry name cfonts
+1059 silly mapToRegistry using default registry
+1060 silly mapToRegistry registry https://registry.npmjs.org/
+1061 silly mapToRegistry data Result {
+1061 silly mapToRegistry   raw: 'cfonts',
+1061 silly mapToRegistry   scope: null,
+1061 silly mapToRegistry   name: 'cfonts',
+1061 silly mapToRegistry   rawSpec: '',
+1061 silly mapToRegistry   spec: 'latest',
+1061 silly mapToRegistry   type: 'tag'
+1061 silly mapToRegistry }
+1062 silly mapToRegistry uri https://registry.npmjs.org/cfonts
+1063 verbose addNameRange registry:https://registry.npmjs.org/cfonts not in flight; fetching
+1064 silly cache add parsed spec Result {
+1064 silly cache add   raw: 'lodash@^4.17.21',
+1064 silly cache add   scope: null,
+1064 silly cache add   name: 'lodash',
+1064 silly cache add   rawSpec: '^4.17.21',
+1064 silly cache add   spec: '>=4.17.21 <5.0.0',
+1064 silly cache add   type: 'range'
+1064 silly cache add }
+1065 silly addNamed lodash@>=4.17.21 <5.0.0
+1066 verbose addNamed ">=4.17.21 <5.0.0" is a valid semver range for lodash
+1067 silly addNameRange { name: 'lodash', range: '>=4.17.21 <5.0.0', hasData: false }
+1068 silly mapToRegistry name lodash
+1069 silly mapToRegistry using default registry
+1070 silly mapToRegistry registry https://registry.npmjs.org/
+1071 silly mapToRegistry data Result {
+1071 silly mapToRegistry   raw: 'lodash',
+1071 silly mapToRegistry   scope: null,
+1071 silly mapToRegistry   name: 'lodash',
+1071 silly mapToRegistry   rawSpec: '',
+1071 silly mapToRegistry   spec: 'latest',
+1071 silly mapToRegistry   type: 'tag'
+1071 silly mapToRegistry }
+1072 silly mapToRegistry uri https://registry.npmjs.org/lodash
+1073 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+1074 silly cache add parsed spec Result {
+1074 silly cache add   raw: 'md5@^2.3.0',
+1074 silly cache add   scope: null,
+1074 silly cache add   name: 'md5',
+1074 silly cache add   rawSpec: '^2.3.0',
+1074 silly cache add   spec: '>=2.3.0 <3.0.0',
+1074 silly cache add   type: 'range'
+1074 silly cache add }
+1075 silly addNamed md5@>=2.3.0 <3.0.0
+1076 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for md5
+1077 silly addNameRange { name: 'md5', range: '>=2.3.0 <3.0.0', hasData: false }
+1078 silly mapToRegistry name md5
+1079 silly mapToRegistry using default registry
+1080 silly mapToRegistry registry https://registry.npmjs.org/
+1081 silly mapToRegistry data Result {
+1081 silly mapToRegistry   raw: 'md5',
+1081 silly mapToRegistry   scope: null,
+1081 silly mapToRegistry   name: 'md5',
+1081 silly mapToRegistry   rawSpec: '',
+1081 silly mapToRegistry   spec: 'latest',
+1081 silly mapToRegistry   type: 'tag'
+1081 silly mapToRegistry }
+1082 silly mapToRegistry uri https://registry.npmjs.org/md5
+1083 verbose addNameRange registry:https://registry.npmjs.org/md5 not in flight; fetching
+1084 silly cache add parsed spec Result {
+1084 silly cache add   raw: 'socket.io@^4.4.1',
+1084 silly cache add   scope: null,
+1084 silly cache add   name: 'socket.io',
+1084 silly cache add   rawSpec: '^4.4.1',
+1084 silly cache add   spec: '>=4.4.1 <5.0.0',
+1084 silly cache add   type: 'range'
+1084 silly cache add }
+1085 silly addNamed socket.io@>=4.4.1 <5.0.0
+1086 verbose addNamed ">=4.4.1 <5.0.0" is a valid semver range for socket.io
+1087 silly addNameRange { name: 'socket.io', range: '>=4.4.1 <5.0.0', hasData: false }
+1088 silly mapToRegistry name socket.io
+1089 silly mapToRegistry using default registry
+1090 silly mapToRegistry registry https://registry.npmjs.org/
+1091 silly mapToRegistry data Result {
+1091 silly mapToRegistry   raw: 'socket.io',
+1091 silly mapToRegistry   scope: null,
+1091 silly mapToRegistry   name: 'socket.io',
+1091 silly mapToRegistry   rawSpec: '',
+1091 silly mapToRegistry   spec: 'latest',
+1091 silly mapToRegistry   type: 'tag'
+1091 silly mapToRegistry }
+1092 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+1093 verbose addNameRange registry:https://registry.npmjs.org/socket.io not in flight; fetching
+1094 verbose stack Error: Unsupported URL Type: npm:@whiskeysockets/baileys
+1094 verbose stack     at parseUrl (/home/runner/Alex-Bot/node_modules/npm/node_modules/npm-package-arg/npa.js:169:13)
+1094 verbose stack     at npa (/home/runner/Alex-Bot/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+1094 verbose stack     at /home/runner/Alex-Bot/node_modules/npm/lib/install.js:896:18
+1094 verbose stack     at /home/runner/Alex-Bot/node_modules/npm/lib/cache.js:335:58
+1094 verbose stack     at /home/runner/Alex-Bot/node_modules/npm/lib/cache.js:280:21
+1094 verbose stack     at /home/runner/Alex-Bot/node_modules/npm/node_modules/dezalgo/dezalgo.js:17:12
+1094 verbose stack     at RawTask.call (/home/runner/Alex-Bot/node_modules/npm/node_modules/dezalgo/node_modules/asap/asap.js:40:19)
+1094 verbose stack     at flush (/home/runner/Alex-Bot/node_modules/npm/node_modules/dezalgo/node_modules/asap/raw.js:50:29)
+1094 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+1095 verbose cwd /home/runner/Alex-Bot
+1096 error Linux 6.5.0-1022-gcp
+1097 error argv "/nix/store/dj805sw07vvpbxx39c8g67x8qddg0ikw-nodejs-18.12.1/bin/node" "/home/runner/Alex-Bot/node_modules/.bin/npm" "install" "moment-timezone" "ws" "axios" "chalk" "express" "cheerio" "syntax-error" "yargs" "@hapi/boom" "cfonts" "lodash" "md5" "socket.io" "@whiskeysockets/baileys" "lowdb" "node-fetch" "pino" "qrcode"
+1098 error node v18.12.1
+1099 error npm  v2.15.12
+1100 error Unsupported URL Type: npm:@whiskeysockets/baileys
+1101 error If you need help, you may report this error at:
+1101 error     <https://github.com/npm/npm/issues>
+1102 verbose exit [ 1, true ]
