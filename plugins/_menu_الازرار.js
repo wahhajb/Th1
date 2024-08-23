@@ -351,7 +351,11 @@ header: 'LIST OF GAMES 2 ',
 }),
     "messageParamsJson": "TARBOO bot"
 },
-{
+                            {
+                                name: "quick_reply",
+                                buttonParamsJson: "{\"display_text\":\"『』تقييم《\",\"id\":\".تقييم\"}"
+                            },
+                            {
     name: "cta_url",
     buttonParamsJson: JSON.stringify({
         display_text: "『』المطور《",
